@@ -1,0 +1,4202 @@
+[
+  {
+    "event_id": "506d94fd-2a48-41f3-9b16-95557ada5a96",
+    "order_id": "afd1a175",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772973613000,
+    "ingestion_timestamp": 1772973618000,
+    "order_id_dedup": "afd1a175#ORDER_PLACED",
+    "customer_id": "cust_0415",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "817fb4",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.48,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "8b8cd427-0acb-46f4-95f2-9077368505b7",
+    "order_id": "afd1a175",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772973673000,
+    "ingestion_timestamp": 1772973663000,
+    "order_id_dedup": "afd1a175#ORDER_ACCEPTED",
+    "customer_id": "cust_0358",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "817fb4",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.69,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "c8ff6454-ac61-4c8a-b0ec-df668e2498dc",
+    "order_id": "afd1a175",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772973703000,
+    "ingestion_timestamp": 1772973708000,
+    "order_id_dedup": "afd1a175#PREPARATION_STARTED",
+    "customer_id": "cust_0080",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "817fb4",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.86,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "4f310b98-c539-43e9-9164-901f83fa5290",
+    "order_id": "afd1a175",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772974513000,
+    "ingestion_timestamp": 1772974526000,
+    "order_id_dedup": "afd1a175#READY_FOR_PICKUP",
+    "customer_id": "cust_0053",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "817fb4",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 1.37,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "44dc7d16-823b-405d-89a3-701948d76521",
+    "order_id": "afd1a175",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772974613000,
+    "ingestion_timestamp": 1772974595000,
+    "order_id_dedup": "afd1a175#PICKED_UP",
+    "customer_id": "cust_0184",
+    "restaurant_id": "rest_0001",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "817fb4",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.39,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "6e43822d-0ac0-48a2-b577-94fffa1e88ad",
+    "order_id": "afd1a175",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772974673000,
+    "ingestion_timestamp": 1772974720000,
+    "order_id_dedup": "afd1a175#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0136",
+    "restaurant_id": "rest_0001",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "817fb4",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.23,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "1b1b6355-1ba3-491f-aa6f-2949d5bbec65",
+    "order_id": "afd1a175",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772975613000,
+    "ingestion_timestamp": 1772975641000,
+    "order_id_dedup": "afd1a175#DELIVERED",
+    "customer_id": "cust_0275",
+    "restaurant_id": "rest_0001",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "817fb4",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.5,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "372869cd-1cfc-4745-823c-70e778a85724",
+    "order_id": "e8542ff5",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772973461000,
+    "ingestion_timestamp": 1772973468000,
+    "order_id_dedup": "e8542ff5#ORDER_PLACED",
+    "customer_id": "cust_0425",
+    "restaurant_id": "rest_0003",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "fca6ab",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.51,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "514012f3-2b46-4419-87a5-341cd4e35510",
+    "order_id": "e8542ff5",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772973521000,
+    "ingestion_timestamp": 1772973537000,
+    "order_id_dedup": "e8542ff5#ORDER_ACCEPTED",
+    "customer_id": "cust_0296",
+    "restaurant_id": "rest_0003",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "fca6ab",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.77,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "484a1478-c776-4a47-883f-b54032ea183c",
+    "order_id": "e8542ff5",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772973551000,
+    "ingestion_timestamp": 1772973529000,
+    "order_id_dedup": "e8542ff5#PREPARATION_STARTED",
+    "customer_id": "cust_0024",
+    "restaurant_id": "rest_0003",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "fca6ab",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.65,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "37743067-4725-447e-aff5-5a84ab6132b1",
+    "order_id": "e8542ff5",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772974361000,
+    "ingestion_timestamp": 1772974368000,
+    "order_id_dedup": "e8542ff5#READY_FOR_PICKUP",
+    "customer_id": "cust_0041",
+    "restaurant_id": "rest_0003",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "fca6ab",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 4.42,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "f4976afc-7551-45f6-bcd6-85eea911c5b9",
+    "order_id": "e8542ff5",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772974461000,
+    "ingestion_timestamp": 1772974443000,
+    "order_id_dedup": "e8542ff5#PICKED_UP",
+    "customer_id": "cust_0195",
+    "restaurant_id": "rest_0003",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "fca6ab",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.11,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "6c5eb52b-e140-410f-853d-6417fbc52a7d",
+    "order_id": "e8542ff5",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772974521000,
+    "ingestion_timestamp": 1772974572000,
+    "order_id_dedup": "e8542ff5#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0428",
+    "restaurant_id": "rest_0003",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "fca6ab",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.46,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "bc91c069-7295-4baf-bf8c-b7a2e5f51319",
+    "order_id": "e8542ff5",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772975461000,
+    "ingestion_timestamp": 1772975478000,
+    "order_id_dedup": "e8542ff5#DELIVERED",
+    "customer_id": "cust_0182",
+    "restaurant_id": "rest_0003",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "fca6ab",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.84,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "7fe2455e-d616-4579-85e6-a84de3b65fdf",
+    "order_id": "60eb9273",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772973999000,
+    "ingestion_timestamp": 1772974051000,
+    "order_id_dedup": "60eb9273#ORDER_PLACED",
+    "customer_id": "cust_0037",
+    "restaurant_id": "rest_0002",
+    "courier_id": null,
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "17660f",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.44,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "b6fcfe66-da93-4636-8145-717ed51950c5",
+    "order_id": "60eb9273",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772974059000,
+    "ingestion_timestamp": 1772974050000,
+    "order_id_dedup": "60eb9273#ORDER_ACCEPTED",
+    "customer_id": "cust_0274",
+    "restaurant_id": "rest_0002",
+    "courier_id": null,
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "17660f",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.92,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "97fa529d-7f97-470e-a975-ab12dc96be45",
+    "order_id": "60eb9273",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772974089000,
+    "ingestion_timestamp": 1772974079000,
+    "order_id_dedup": "60eb9273#PREPARATION_STARTED",
+    "customer_id": "cust_0237",
+    "restaurant_id": "rest_0002",
+    "courier_id": null,
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "17660f",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.52,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "cc1e2e0b-12e6-4b55-a12b-00db44f4c9ff",
+    "order_id": "60eb9273",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772974899000,
+    "ingestion_timestamp": 1772974950000,
+    "order_id_dedup": "60eb9273#READY_FOR_PICKUP",
+    "customer_id": "cust_0353",
+    "restaurant_id": "rest_0002",
+    "courier_id": null,
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "17660f",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 3.23,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "f4dac0f6-0bdb-43cf-ab6a-d901105689aa",
+    "order_id": "60eb9273",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772974999000,
+    "ingestion_timestamp": 1772975056000,
+    "order_id_dedup": "60eb9273#PICKED_UP",
+    "customer_id": "cust_0167",
+    "restaurant_id": "rest_0002",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "17660f",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.37,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "9079d714-bb11-450f-8c56-6a7c66789a7e",
+    "order_id": "60eb9273",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772975059000,
+    "ingestion_timestamp": 1772975036000,
+    "order_id_dedup": "60eb9273#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0118",
+    "restaurant_id": "rest_0002",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "17660f",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.29,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "d8194e69-00ca-4af4-af70-c278eebc5907",
+    "order_id": "60eb9273",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772975999000,
+    "ingestion_timestamp": 1772976009000,
+    "order_id_dedup": "60eb9273#DELIVERED",
+    "customer_id": "cust_0206",
+    "restaurant_id": "rest_0002",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "17660f",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.07,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "1860c45a-ce5a-472c-aa1c-5f6dead37c09",
+    "order_id": "b82bf306",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772974789000,
+    "ingestion_timestamp": 1772974799000,
+    "order_id_dedup": "b82bf306#ORDER_PLACED",
+    "customer_id": "cust_0109",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "edbe4f",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.62,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "c511bd37-788b-4b20-ba00-8086bfe08306",
+    "order_id": "b82bf306",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772974849000,
+    "ingestion_timestamp": 1772974869000,
+    "order_id_dedup": "b82bf306#ORDER_ACCEPTED",
+    "customer_id": "cust_0453",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "edbe4f",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.66,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "08f0aff5-c0a5-4201-ab07-82cca22406b5",
+    "order_id": "b82bf306",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772974879000,
+    "ingestion_timestamp": 1772974907000,
+    "order_id_dedup": "b82bf306#PREPARATION_STARTED",
+    "customer_id": "cust_0074",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "edbe4f",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.06,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "4c499faa-e01b-4692-8b9e-9e1256059762",
+    "order_id": "b82bf306",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772975689000,
+    "ingestion_timestamp": 1772975690000,
+    "order_id_dedup": "b82bf306#READY_FOR_PICKUP",
+    "customer_id": "cust_0382",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "edbe4f",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 3.25,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "468a3b91-c8b0-4a67-96cc-c90c2b8d3e6f",
+    "order_id": "b82bf306",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772975789000,
+    "ingestion_timestamp": 1772975792000,
+    "order_id_dedup": "b82bf306#PICKED_UP",
+    "customer_id": "cust_0383",
+    "restaurant_id": "rest_0001",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "edbe4f",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.34,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "237c245b-e18b-4503-aa2f-6118228c23d9",
+    "order_id": "b82bf306",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772975849000,
+    "ingestion_timestamp": 1772975893000,
+    "order_id_dedup": "b82bf306#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0205",
+    "restaurant_id": "rest_0001",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "edbe4f",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.45,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "6227fe88-9c83-4fe7-a849-48ba950e6d6e",
+    "order_id": "b82bf306",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772976789000,
+    "ingestion_timestamp": 1772976776000,
+    "order_id_dedup": "b82bf306#DELIVERED",
+    "customer_id": "cust_0261",
+    "restaurant_id": "rest_0001",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "edbe4f",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.97,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "de332433-35b7-4f98-b3e5-755e3195dfe1",
+    "order_id": "8cce9ca7",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772971826000,
+    "ingestion_timestamp": 1772971876000,
+    "order_id_dedup": "8cce9ca7#ORDER_PLACED",
+    "customer_id": "cust_0082",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "68e5b5",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.17,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "544ae60a-9010-4ac5-aa41-f6f580fbc9cd",
+    "order_id": "8cce9ca7",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772971886000,
+    "ingestion_timestamp": 1772971910000,
+    "order_id_dedup": "8cce9ca7#ORDER_ACCEPTED",
+    "customer_id": "cust_0306",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "68e5b5",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.25,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "9203f32c-7133-4505-94a7-5960053a4005",
+    "order_id": "8cce9ca7",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772971916000,
+    "ingestion_timestamp": 1772971934000,
+    "order_id_dedup": "8cce9ca7#PREPARATION_STARTED",
+    "customer_id": "cust_0306",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "68e5b5",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.98,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "68d4d7bf-c9fa-4ee6-a9a0-0e410e080ea5",
+    "order_id": "8cce9ca7",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772972726000,
+    "ingestion_timestamp": 1772972763000,
+    "order_id_dedup": "8cce9ca7#READY_FOR_PICKUP",
+    "customer_id": "cust_0129",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "68e5b5",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 4.88,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "47575149-f2fc-40f8-9b14-d2654dd0488f",
+    "order_id": "8cce9ca7",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772972826000,
+    "ingestion_timestamp": 1772972797000,
+    "order_id_dedup": "8cce9ca7#PICKED_UP",
+    "customer_id": "cust_0349",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "68e5b5",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.88,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "7ae9c2e4-f9c4-4810-b3ce-24549d491b08",
+    "order_id": "8cce9ca7",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772972886000,
+    "ingestion_timestamp": 1772972943000,
+    "order_id_dedup": "8cce9ca7#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0454",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "68e5b5",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.15,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "eb66da15-9266-4484-b60b-dc76704986ac",
+    "order_id": "8cce9ca7",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772973826000,
+    "ingestion_timestamp": 1772973830000,
+    "order_id_dedup": "8cce9ca7#DELIVERED",
+    "customer_id": "cust_0394",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "68e5b5",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.56,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "75db751c-547b-4289-8501-6bfa4c9a2058",
+    "order_id": "60dd8915",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772972980000,
+    "ingestion_timestamp": 1772972970000,
+    "order_id_dedup": "60dd8915#ORDER_PLACED",
+    "customer_id": "cust_0233",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a62db8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.01,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "bc8db253-4ac7-43dc-8c88-f76a7003b6e8",
+    "order_id": "60dd8915",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772973040000,
+    "ingestion_timestamp": 1772973043000,
+    "order_id_dedup": "60dd8915#ORDER_ACCEPTED",
+    "customer_id": "cust_0498",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a62db8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.0,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "5d0ec111-2de9-4e38-979b-33d15145121b",
+    "order_id": "60dd8915",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772973070000,
+    "ingestion_timestamp": 1772973062000,
+    "order_id_dedup": "60dd8915#PREPARATION_STARTED",
+    "customer_id": "cust_0260",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a62db8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.65,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "5e5577a4-08d5-4996-a545-fc98b8498616",
+    "order_id": "60dd8915",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772973880000,
+    "ingestion_timestamp": 1772973930000,
+    "order_id_dedup": "60dd8915#READY_FOR_PICKUP",
+    "customer_id": "cust_0153",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a62db8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 4.37,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "65518c79-7888-4363-a027-2d039a96db46",
+    "order_id": "60dd8915",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772973980000,
+    "ingestion_timestamp": 1772974014000,
+    "order_id_dedup": "60dd8915#PICKED_UP",
+    "customer_id": "cust_0312",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a62db8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.8,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "c6fee4f5-bd40-4e51-8e9c-fa05c9db8209",
+    "order_id": "60dd8915",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772974040000,
+    "ingestion_timestamp": 1772974057000,
+    "order_id_dedup": "60dd8915#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0391",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a62db8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.65,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "31b82ec1-f302-4672-9a15-5f34dde6880e",
+    "order_id": "60dd8915",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772974980000,
+    "ingestion_timestamp": 1772975017000,
+    "order_id_dedup": "60dd8915#DELIVERED",
+    "customer_id": "cust_0471",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a62db8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.0,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "016d260b-f03e-4970-a3b0-0d19a2c205f3",
+    "order_id": "ac6873d5",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772971279000,
+    "ingestion_timestamp": 1772971263000,
+    "order_id_dedup": "ac6873d5#ORDER_PLACED",
+    "customer_id": "cust_0476",
+    "restaurant_id": "rest_0002",
+    "courier_id": null,
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "3c37e1",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.45,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "59466818-f29c-4f02-a8a2-806c45085ef1",
+    "order_id": "ac6873d5",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772971339000,
+    "ingestion_timestamp": 1772971348000,
+    "order_id_dedup": "ac6873d5#ORDER_ACCEPTED",
+    "customer_id": "cust_0123",
+    "restaurant_id": "rest_0002",
+    "courier_id": null,
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "3c37e1",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.23,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "25186c5f-034c-4680-9182-1c522cbf7f81",
+    "order_id": "ac6873d5",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772971369000,
+    "ingestion_timestamp": 1772971411000,
+    "order_id_dedup": "ac6873d5#PREPARATION_STARTED",
+    "customer_id": "cust_0485",
+    "restaurant_id": "rest_0002",
+    "courier_id": null,
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "3c37e1",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.32,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "fd01af4a-8192-4b37-83a8-b0e3cd59484a",
+    "order_id": "ac6873d5",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772972179000,
+    "ingestion_timestamp": 1772972211000,
+    "order_id_dedup": "ac6873d5#READY_FOR_PICKUP",
+    "customer_id": "cust_0418",
+    "restaurant_id": "rest_0002",
+    "courier_id": null,
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "3c37e1",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 1.28,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "d62dee16-db8f-4a4b-9b4e-b07a322dffbe",
+    "order_id": "ac6873d5",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772972279000,
+    "ingestion_timestamp": 1772972317000,
+    "order_id_dedup": "ac6873d5#PICKED_UP",
+    "customer_id": "cust_0393",
+    "restaurant_id": "rest_0002",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "3c37e1",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.5,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "b37cb0e4-29a1-44ae-b6d6-3f91619fcc56",
+    "order_id": "ac6873d5",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772972339000,
+    "ingestion_timestamp": 1772972393000,
+    "order_id_dedup": "ac6873d5#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0244",
+    "restaurant_id": "rest_0002",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "3c37e1",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.79,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "638ab863-b300-4b48-954e-0f206a19166b",
+    "order_id": "ac6873d5",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772973279000,
+    "ingestion_timestamp": 1772973270000,
+    "order_id_dedup": "ac6873d5#DELIVERED",
+    "customer_id": "cust_0136",
+    "restaurant_id": "rest_0002",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "3c37e1",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.11,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "46bea036-b0d7-44c4-b579-e96d4e9085f3",
+    "order_id": "0f9aa6b6",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772972067000,
+    "ingestion_timestamp": 1772972106000,
+    "order_id_dedup": "0f9aa6b6#ORDER_PLACED",
+    "customer_id": "cust_0387",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "160335",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.92,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "76b158cb-57ff-4a9f-9ae3-1f19b86ae191",
+    "order_id": "0f9aa6b6",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772972127000,
+    "ingestion_timestamp": 1772972122000,
+    "order_id_dedup": "0f9aa6b6#ORDER_ACCEPTED",
+    "customer_id": "cust_0366",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "160335",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.25,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "50d250d8-6d2b-4b31-a071-f834a22b69db",
+    "order_id": "0f9aa6b6",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772972157000,
+    "ingestion_timestamp": 1772972212000,
+    "order_id_dedup": "0f9aa6b6#PREPARATION_STARTED",
+    "customer_id": "cust_0333",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "160335",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.49,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "ad02d9e0-0cb5-4f40-a403-cbe4f2a7ee79",
+    "order_id": "0f9aa6b6",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772972967000,
+    "ingestion_timestamp": 1772973003000,
+    "order_id_dedup": "0f9aa6b6#READY_FOR_PICKUP",
+    "customer_id": "cust_0232",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "160335",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 1.48,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "858926d4-45f6-4aca-b152-cd52169af49f",
+    "order_id": "0f9aa6b6",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772973067000,
+    "ingestion_timestamp": 1772973065000,
+    "order_id_dedup": "0f9aa6b6#PICKED_UP",
+    "customer_id": "cust_0033",
+    "restaurant_id": "rest_0004",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "160335",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.35,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "4de5c9b6-690b-4c3c-ac46-141510a10fb9",
+    "order_id": "0f9aa6b6",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772973127000,
+    "ingestion_timestamp": 1772973172000,
+    "order_id_dedup": "0f9aa6b6#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0284",
+    "restaurant_id": "rest_0004",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "160335",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.92,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "808b410f-5f10-47ca-a782-e973d147f940",
+    "order_id": "0f9aa6b6",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772974067000,
+    "ingestion_timestamp": 1772974065000,
+    "order_id_dedup": "0f9aa6b6#DELIVERED",
+    "customer_id": "cust_0004",
+    "restaurant_id": "rest_0004",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "160335",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.28,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "49a8ebb2-f9d2-4917-9dd1-5cd3b81ec6dc",
+    "order_id": "c6d7d8cf",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772971476000,
+    "ingestion_timestamp": 1772971450000,
+    "order_id_dedup": "c6d7d8cf#ORDER_PLACED",
+    "customer_id": "cust_0441",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "152e53",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.32,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "aca27f91-723b-44e2-8d1b-1c7a2c8b9b8e",
+    "order_id": "c6d7d8cf",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772971536000,
+    "ingestion_timestamp": 1772971571000,
+    "order_id_dedup": "c6d7d8cf#ORDER_ACCEPTED",
+    "customer_id": "cust_0122",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "152e53",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.11,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "e9fb6cdf-ca57-4417-ba54-54fb7c472fa3",
+    "order_id": "c6d7d8cf",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772971566000,
+    "ingestion_timestamp": 1772971598000,
+    "order_id_dedup": "c6d7d8cf#PREPARATION_STARTED",
+    "customer_id": "cust_0110",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "152e53",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.16,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "f2f031a8-7a38-430e-9937-7b4c0b45772d",
+    "order_id": "c6d7d8cf",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772972376000,
+    "ingestion_timestamp": 1772972419000,
+    "order_id_dedup": "c6d7d8cf#READY_FOR_PICKUP",
+    "customer_id": "cust_0296",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "152e53",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 2.89,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "eaf48a26-3bfe-4132-ab02-fb3ea9d841a8",
+    "order_id": "c6d7d8cf",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772972476000,
+    "ingestion_timestamp": 1772972506000,
+    "order_id_dedup": "c6d7d8cf#PICKED_UP",
+    "customer_id": "cust_0414",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "152e53",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.63,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "ffaf4ac7-e627-4126-b81c-9e22a13ca5c3",
+    "order_id": "c6d7d8cf",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772972536000,
+    "ingestion_timestamp": 1772972518000,
+    "order_id_dedup": "c6d7d8cf#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0050",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "152e53",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.64,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "1d97184e-c9d7-435b-b99a-a7a970b855a6",
+    "order_id": "c6d7d8cf",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772973476000,
+    "ingestion_timestamp": 1772973491000,
+    "order_id_dedup": "c6d7d8cf#DELIVERED",
+    "customer_id": "cust_0217",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "152e53",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.64,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "4e1d78a5-5af1-44a8-8928-07b887a1c6a0",
+    "order_id": "c673d641",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772973876000,
+    "ingestion_timestamp": 1772973928000,
+    "order_id_dedup": "c673d641#ORDER_PLACED",
+    "customer_id": "cust_0051",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "195660",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.24,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "2d6f50a2-f2e0-4849-9b79-c19f46fd4543",
+    "order_id": "c673d641",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772973936000,
+    "ingestion_timestamp": 1772973949000,
+    "order_id_dedup": "c673d641#ORDER_ACCEPTED",
+    "customer_id": "cust_0410",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "195660",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.45,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "86914d0b-6748-4c55-b44a-f568c960d03a",
+    "order_id": "c673d641",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772973966000,
+    "ingestion_timestamp": 1772973967000,
+    "order_id_dedup": "c673d641#PREPARATION_STARTED",
+    "customer_id": "cust_0099",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "195660",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.76,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "d16fa24c-18ce-4df8-aa98-31c3d920a644",
+    "order_id": "c673d641",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772974776000,
+    "ingestion_timestamp": 1772974803000,
+    "order_id_dedup": "c673d641#READY_FOR_PICKUP",
+    "customer_id": "cust_0072",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "195660",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 2.69,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "ddd12670-d6c6-4b16-a1c0-e1b03174dae9",
+    "order_id": "c673d641",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772974876000,
+    "ingestion_timestamp": 1772974881000,
+    "order_id_dedup": "c673d641#PICKED_UP",
+    "customer_id": "cust_0237",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "195660",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.0,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "b982a8ab-3825-498c-85ca-5ee9e1558cd1",
+    "order_id": "c673d641",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772974936000,
+    "ingestion_timestamp": 1772974915000,
+    "order_id_dedup": "c673d641#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0227",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "195660",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.23,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "fb2b7f7b-920b-4fd5-8433-bd56dd7ceaab",
+    "order_id": "c673d641",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772975876000,
+    "ingestion_timestamp": 1772975916000,
+    "order_id_dedup": "c673d641#DELIVERED",
+    "customer_id": "cust_0051",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "195660",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.2,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "3f22a3dc-1976-442e-87a3-ae1ca4ce34f0",
+    "order_id": "b8096c45",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772971582000,
+    "ingestion_timestamp": 1772971582000,
+    "order_id_dedup": "b8096c45#ORDER_PLACED",
+    "customer_id": "cust_0086",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "43bc74",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.63,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "b2560f84-4ed0-42ba-8fed-e2deac809a67",
+    "order_id": "b8096c45",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772971642000,
+    "ingestion_timestamp": 1772971673000,
+    "order_id_dedup": "b8096c45#ORDER_ACCEPTED",
+    "customer_id": "cust_0110",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "43bc74",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.46,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "9ba9f513-667c-40be-9b7d-f6071b9cb42e",
+    "order_id": "b8096c45",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772971672000,
+    "ingestion_timestamp": 1772971649000,
+    "order_id_dedup": "b8096c45#PREPARATION_STARTED",
+    "customer_id": "cust_0085",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "43bc74",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.52,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "cf85a385-3caa-4c9e-b6c3-9e52983e069d",
+    "order_id": "b8096c45",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772972482000,
+    "ingestion_timestamp": 1772972501000,
+    "order_id_dedup": "b8096c45#READY_FOR_PICKUP",
+    "customer_id": "cust_0136",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "43bc74",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 4.71,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "0cff1892-e18a-4b12-9fc1-50be7ea5492a",
+    "order_id": "b8096c45",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772972582000,
+    "ingestion_timestamp": 1772972610000,
+    "order_id_dedup": "b8096c45#PICKED_UP",
+    "customer_id": "cust_0147",
+    "restaurant_id": "rest_0004",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "43bc74",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.69,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "44d04b83-550d-4a0c-9fd0-d419e036600d",
+    "order_id": "b8096c45",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772972642000,
+    "ingestion_timestamp": 1772972683000,
+    "order_id_dedup": "b8096c45#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0339",
+    "restaurant_id": "rest_0004",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "43bc74",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.87,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "46cdb868-a4e6-491f-aa95-3d9980c8ada6",
+    "order_id": "b8096c45",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772973582000,
+    "ingestion_timestamp": 1772973571000,
+    "order_id_dedup": "b8096c45#DELIVERED",
+    "customer_id": "cust_0098",
+    "restaurant_id": "rest_0004",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "43bc74",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.19,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "2552531d-031c-4e0d-9d8a-e43430827c90",
+    "order_id": "3158d8ef",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772974213000,
+    "ingestion_timestamp": 1772974252000,
+    "order_id_dedup": "3158d8ef#ORDER_PLACED",
+    "customer_id": "cust_0032",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "e5482e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.99,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "c0625160-dcab-4a0e-8a5e-3edf28d42214",
+    "order_id": "3158d8ef",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772974273000,
+    "ingestion_timestamp": 1772974250000,
+    "order_id_dedup": "3158d8ef#ORDER_ACCEPTED",
+    "customer_id": "cust_0026",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "e5482e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.34,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "c2034610-8f78-4731-a8d0-db43bb731494",
+    "order_id": "3158d8ef",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772974303000,
+    "ingestion_timestamp": 1772974337000,
+    "order_id_dedup": "3158d8ef#PREPARATION_STARTED",
+    "customer_id": "cust_0471",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "e5482e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.41,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "d4393ee1-c1c6-4dcd-92b5-ea1f2a85ce25",
+    "order_id": "3158d8ef",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772975113000,
+    "ingestion_timestamp": 1772975103000,
+    "order_id_dedup": "3158d8ef#READY_FOR_PICKUP",
+    "customer_id": "cust_0030",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "e5482e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 4.84,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "08773ce3-c97f-4c46-a74c-bf4d437dcf8b",
+    "order_id": "3158d8ef",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772975213000,
+    "ingestion_timestamp": 1772975193000,
+    "order_id_dedup": "3158d8ef#PICKED_UP",
+    "customer_id": "cust_0436",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "e5482e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.74,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "805334cd-d478-4625-8399-cfe94c4fc6ac",
+    "order_id": "3158d8ef",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772975273000,
+    "ingestion_timestamp": 1772975319000,
+    "order_id_dedup": "3158d8ef#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0035",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "e5482e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.7,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "2df9a2bd-1d3b-4e6d-8f4c-4785742b2751",
+    "order_id": "3158d8ef",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772976213000,
+    "ingestion_timestamp": 1772976213000,
+    "order_id_dedup": "3158d8ef#DELIVERED",
+    "customer_id": "cust_0207",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "e5482e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.48,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "5d904e1f-435c-4d84-8272-44fb3f5d3362",
+    "order_id": "dded7911",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772973571000,
+    "ingestion_timestamp": 1772973617000,
+    "order_id_dedup": "dded7911#ORDER_PLACED",
+    "customer_id": "cust_0021",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "4cadad",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.48,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "dffc14c7-d8d0-4ba6-8733-a852eacd0e6e",
+    "order_id": "dded7911",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772973631000,
+    "ingestion_timestamp": 1772973654000,
+    "order_id_dedup": "dded7911#ORDER_ACCEPTED",
+    "customer_id": "cust_0337",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "4cadad",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.33,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "b6dcd70e-b859-455c-a938-ec206002ecce",
+    "order_id": "dded7911",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772973661000,
+    "ingestion_timestamp": 1772973697000,
+    "order_id_dedup": "dded7911#PREPARATION_STARTED",
+    "customer_id": "cust_0162",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "4cadad",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.74,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "ce942eed-b946-4c59-8093-610585841adf",
+    "order_id": "dded7911",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772974471000,
+    "ingestion_timestamp": 1772974467000,
+    "order_id_dedup": "dded7911#READY_FOR_PICKUP",
+    "customer_id": "cust_0343",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "4cadad",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 3.86,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "c47e307d-866f-4d15-9b75-729dc25eb755",
+    "order_id": "dded7911",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772974571000,
+    "ingestion_timestamp": 1772974571000,
+    "order_id_dedup": "dded7911#PICKED_UP",
+    "customer_id": "cust_0136",
+    "restaurant_id": "rest_0004",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "4cadad",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.58,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "e953342f-edd0-4330-b06b-7bc16d045095",
+    "order_id": "dded7911",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772974631000,
+    "ingestion_timestamp": 1772974686000,
+    "order_id_dedup": "dded7911#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0331",
+    "restaurant_id": "rest_0004",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "4cadad",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.2,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "3cb66bb8-a77e-48f7-b095-e810cbacd299",
+    "order_id": "dded7911",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772975571000,
+    "ingestion_timestamp": 1772975581000,
+    "order_id_dedup": "dded7911#DELIVERED",
+    "customer_id": "cust_0476",
+    "restaurant_id": "rest_0004",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "4cadad",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.01,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "130b0bac-fe97-4bbc-a109-1cfbba3423a6",
+    "order_id": "c4bd3d95",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772973077000,
+    "ingestion_timestamp": 1772973126000,
+    "order_id_dedup": "c4bd3d95#ORDER_PLACED",
+    "customer_id": "cust_0289",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "f08b8e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.98,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "da6e3826-5fb8-497d-8904-8f17f34dafeb",
+    "order_id": "c4bd3d95",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772973137000,
+    "ingestion_timestamp": 1772973116000,
+    "order_id_dedup": "c4bd3d95#ORDER_ACCEPTED",
+    "customer_id": "cust_0276",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "f08b8e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.85,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "52d09ecf-9337-48c2-a0af-b8ce208d213a",
+    "order_id": "c4bd3d95",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772973167000,
+    "ingestion_timestamp": 1772973170000,
+    "order_id_dedup": "c4bd3d95#PREPARATION_STARTED",
+    "customer_id": "cust_0068",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "f08b8e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.73,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "30f5ce92-2af8-4f52-9597-7dbddbe35504",
+    "order_id": "c4bd3d95",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772973977000,
+    "ingestion_timestamp": 1772973955000,
+    "order_id_dedup": "c4bd3d95#READY_FOR_PICKUP",
+    "customer_id": "cust_0451",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "f08b8e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 1.98,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "0c822c21-6a31-4f3e-94a7-3b515fa363cd",
+    "order_id": "c4bd3d95",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772974077000,
+    "ingestion_timestamp": 1772974083000,
+    "order_id_dedup": "c4bd3d95#PICKED_UP",
+    "customer_id": "cust_0081",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "f08b8e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.75,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "5cc8a862-b62d-4b81-a568-a1fef7758ed0",
+    "order_id": "c4bd3d95",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772974137000,
+    "ingestion_timestamp": 1772974176000,
+    "order_id_dedup": "c4bd3d95#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0361",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "f08b8e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.21,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "41e6092c-dfb7-478d-ad5e-38991f9ff07b",
+    "order_id": "c4bd3d95",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772975077000,
+    "ingestion_timestamp": 1772975130000,
+    "order_id_dedup": "c4bd3d95#DELIVERED",
+    "customer_id": "cust_0271",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "f08b8e",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.03,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "3bdc9602-57cf-4c9a-9d93-9a21cf2581f4",
+    "order_id": "b0537c74",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772973917000,
+    "ingestion_timestamp": 1772973900000,
+    "order_id_dedup": "b0537c74#ORDER_PLACED",
+    "customer_id": "cust_0481",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "bdb667",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.51,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "e30bfe8b-57e8-4382-8a64-6c87ca700eee",
+    "order_id": "b0537c74",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772973977000,
+    "ingestion_timestamp": 1772973980000,
+    "order_id_dedup": "b0537c74#ORDER_ACCEPTED",
+    "customer_id": "cust_0060",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "bdb667",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.56,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "e3096974-2613-4ec1-8a3c-d48eadafde67",
+    "order_id": "b0537c74",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772974007000,
+    "ingestion_timestamp": 1772974047000,
+    "order_id_dedup": "b0537c74#PREPARATION_STARTED",
+    "customer_id": "cust_0080",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "bdb667",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.09,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "aa5bace6-daf2-4bc5-8bf3-06dd24cfdca9",
+    "order_id": "b0537c74",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772974817000,
+    "ingestion_timestamp": 1772974864000,
+    "order_id_dedup": "b0537c74#READY_FOR_PICKUP",
+    "customer_id": "cust_0108",
+    "restaurant_id": "rest_0004",
+    "courier_id": null,
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "bdb667",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 3.87,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "dee4164b-b468-4633-8829-8f51008b353e",
+    "order_id": "b0537c74",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772974917000,
+    "ingestion_timestamp": 1772974913000,
+    "order_id_dedup": "b0537c74#PICKED_UP",
+    "customer_id": "cust_0352",
+    "restaurant_id": "rest_0004",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "bdb667",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.54,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "b0ba6ea8-4963-4bfd-96b1-5117cabc98fe",
+    "order_id": "b0537c74",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772974977000,
+    "ingestion_timestamp": 1772974980000,
+    "order_id_dedup": "b0537c74#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0259",
+    "restaurant_id": "rest_0004",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "bdb667",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.95,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "373d27f7-aa44-4b01-99e6-52a6ebe0564a",
+    "order_id": "b0537c74",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772975917000,
+    "ingestion_timestamp": 1772975893000,
+    "order_id_dedup": "b0537c74#DELIVERED",
+    "customer_id": "cust_0048",
+    "restaurant_id": "rest_0004",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_north",
+    "items": [
+      {
+        "item_id": "bdb667",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1634,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.54,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "edf0b39e-5552-445a-8dd3-41186484c835",
+    "order_id": "94fb0fe8",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772971214000,
+    "ingestion_timestamp": 1772971226000,
+    "order_id_dedup": "94fb0fe8#ORDER_PLACED",
+    "customer_id": "cust_0395",
+    "restaurant_id": "rest_0002",
+    "courier_id": null,
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "48da5a",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.52,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "97238bf5-1bd2-499e-bcfe-43eceaec1706",
+    "order_id": "94fb0fe8",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772971274000,
+    "ingestion_timestamp": 1772971277000,
+    "order_id_dedup": "94fb0fe8#ORDER_ACCEPTED",
+    "customer_id": "cust_0083",
+    "restaurant_id": "rest_0002",
+    "courier_id": null,
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "48da5a",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.96,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "0ee0aff9-4f26-4a52-b235-556e1314ac0c",
+    "order_id": "94fb0fe8",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772971304000,
+    "ingestion_timestamp": 1772971344000,
+    "order_id_dedup": "94fb0fe8#PREPARATION_STARTED",
+    "customer_id": "cust_0362",
+    "restaurant_id": "rest_0002",
+    "courier_id": null,
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "48da5a",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.71,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "4b1e5a9d-8884-4c43-bd9f-73b9dc56f49a",
+    "order_id": "94fb0fe8",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772972114000,
+    "ingestion_timestamp": 1772972085000,
+    "order_id_dedup": "94fb0fe8#READY_FOR_PICKUP",
+    "customer_id": "cust_0058",
+    "restaurant_id": "rest_0002",
+    "courier_id": null,
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "48da5a",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 1.3,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "5af07167-b484-4eb8-bbb9-931a2f630352",
+    "order_id": "94fb0fe8",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772972214000,
+    "ingestion_timestamp": 1772972272000,
+    "order_id_dedup": "94fb0fe8#PICKED_UP",
+    "customer_id": "cust_0463",
+    "restaurant_id": "rest_0002",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "48da5a",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.6,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "94f3bc5f-6d29-4f26-bf20-0ced1b186189",
+    "order_id": "94fb0fe8",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772972274000,
+    "ingestion_timestamp": 1772972248000,
+    "order_id_dedup": "94fb0fe8#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0428",
+    "restaurant_id": "rest_0002",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "48da5a",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.48,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "f06a2fad-ece6-4c7b-916a-3a7e4f4b7c8d",
+    "order_id": "94fb0fe8",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772973214000,
+    "ingestion_timestamp": 1772973254000,
+    "order_id_dedup": "94fb0fe8#DELIVERED",
+    "customer_id": "cust_0076",
+    "restaurant_id": "rest_0002",
+    "courier_id": "courier_0000",
+    "zone_id": "zone_centre",
+    "items": [
+      {
+        "item_id": "48da5a",
+        "name": "Classic Burger",
+        "quantity": 1,
+        "unit_price": 10.0
+      }
+    ],
+    "total_amount": 10.0,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 778,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.72,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "91b4e065-2c13-41a4-b184-cd076f604f67",
+    "order_id": "598da6cf",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772972693000,
+    "ingestion_timestamp": 1772972668000,
+    "order_id_dedup": "598da6cf#ORDER_PLACED",
+    "customer_id": "cust_0461",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "70e5a8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.43,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "3c900805-3c63-43cd-835e-2b2679d1f389",
+    "order_id": "598da6cf",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772972753000,
+    "ingestion_timestamp": 1772972810000,
+    "order_id_dedup": "598da6cf#ORDER_ACCEPTED",
+    "customer_id": "cust_0128",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "70e5a8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.67,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "9d0c6d36-0053-46e6-b5c4-4664a41e70f6",
+    "order_id": "598da6cf",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772972783000,
+    "ingestion_timestamp": 1772972798000,
+    "order_id_dedup": "598da6cf#PREPARATION_STARTED",
+    "customer_id": "cust_0400",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "70e5a8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.24,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "56135bd4-158e-4cbc-8add-90cba6d9180c",
+    "order_id": "598da6cf",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772973593000,
+    "ingestion_timestamp": 1772973615000,
+    "order_id_dedup": "598da6cf#READY_FOR_PICKUP",
+    "customer_id": "cust_0499",
+    "restaurant_id": "rest_0000",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "70e5a8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 3.48,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "8acf4fde-01ca-4f46-bbfd-a470c4778dbe",
+    "order_id": "598da6cf",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772973693000,
+    "ingestion_timestamp": 1772973682000,
+    "order_id_dedup": "598da6cf#PICKED_UP",
+    "customer_id": "cust_0474",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "70e5a8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.72,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "1ce1a930-1776-46a9-891e-b9ea6583fbb0",
+    "order_id": "598da6cf",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772973753000,
+    "ingestion_timestamp": 1772973743000,
+    "order_id_dedup": "598da6cf#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0500",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "70e5a8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.2,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "f70c3af0-b9b3-457a-bcc4-c820e0be96d5",
+    "order_id": "598da6cf",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772974693000,
+    "ingestion_timestamp": 1772974685000,
+    "order_id_dedup": "598da6cf#DELIVERED",
+    "customer_id": "cust_0452",
+    "restaurant_id": "rest_0000",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "70e5a8",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 1163,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.65,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "65461d30-4883-49ea-b9e8-70ab6e6d30ec",
+    "order_id": "6610b90f",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772972560000,
+    "ingestion_timestamp": 1772972582000,
+    "order_id_dedup": "6610b90f#ORDER_PLACED",
+    "customer_id": "cust_0411",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "f26a26",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.68,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "07a2319f-2282-43f8-ba1d-f7840f7fc727",
+    "order_id": "6610b90f",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772972620000,
+    "ingestion_timestamp": 1772972621000,
+    "order_id_dedup": "6610b90f#ORDER_ACCEPTED",
+    "customer_id": "cust_0137",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "f26a26",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.64,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "741d11e3-242e-4296-a9fe-5cf9f859746c",
+    "order_id": "6610b90f",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772972650000,
+    "ingestion_timestamp": 1772972709000,
+    "order_id_dedup": "6610b90f#PREPARATION_STARTED",
+    "customer_id": "cust_0056",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "f26a26",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.53,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "5f0dbebb-1aa5-401d-96f5-358d93111f43",
+    "order_id": "6610b90f",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772973460000,
+    "ingestion_timestamp": 1772973434000,
+    "order_id_dedup": "6610b90f#READY_FOR_PICKUP",
+    "customer_id": "cust_0440",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "f26a26",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 2.88,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "beb9c79c-d5bd-403c-8c2c-20edf7cec9fa",
+    "order_id": "6610b90f",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772973560000,
+    "ingestion_timestamp": 1772973555000,
+    "order_id_dedup": "6610b90f#PICKED_UP",
+    "customer_id": "cust_0419",
+    "restaurant_id": "rest_0001",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "f26a26",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.67,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "eeba8b2e-0cd0-4dd7-be38-e9b4de4520d8",
+    "order_id": "6610b90f",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772973620000,
+    "ingestion_timestamp": 1772973634000,
+    "order_id_dedup": "6610b90f#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0157",
+    "restaurant_id": "rest_0001",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "f26a26",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.28,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "bfff4528-0742-4bdf-9f96-9e51316ee1b0",
+    "order_id": "6610b90f",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772974560000,
+    "ingestion_timestamp": 1772974559000,
+    "order_id_dedup": "6610b90f#DELIVERED",
+    "customer_id": "cust_0115",
+    "restaurant_id": "rest_0001",
+    "courier_id": "courier_0002",
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "f26a26",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.09,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "200d7129-9e5f-49d4-8370-9d5f3d97cdc1",
+    "order_id": "887daefc",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772972544000,
+    "ingestion_timestamp": 1772972549000,
+    "order_id_dedup": "887daefc#ORDER_PLACED",
+    "customer_id": "cust_0443",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "9d613d",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.28,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "2642bffb-21a2-40a5-abcd-b1cd4dcd5a97",
+    "order_id": "887daefc",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772972604000,
+    "ingestion_timestamp": 1772972609000,
+    "order_id_dedup": "887daefc#ORDER_ACCEPTED",
+    "customer_id": "cust_0180",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "9d613d",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.57,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "432a601f-46e4-45b4-ad3d-8e20ecfe80f4",
+    "order_id": "887daefc",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772972634000,
+    "ingestion_timestamp": 1772972655000,
+    "order_id_dedup": "887daefc#PREPARATION_STARTED",
+    "customer_id": "cust_0348",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "9d613d",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.92,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "dec2648d-3413-4809-a145-c5b1018ac3b5",
+    "order_id": "887daefc",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772973444000,
+    "ingestion_timestamp": 1772973482000,
+    "order_id_dedup": "887daefc#READY_FOR_PICKUP",
+    "customer_id": "cust_0170",
+    "restaurant_id": "rest_0001",
+    "courier_id": null,
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "9d613d",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 4.76,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "d6d6cb1c-2a85-479c-bf2c-56e8e8e3d64f",
+    "order_id": "887daefc",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772973544000,
+    "ingestion_timestamp": 1772973528000,
+    "order_id_dedup": "887daefc#PICKED_UP",
+    "customer_id": "cust_0450",
+    "restaurant_id": "rest_0001",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "9d613d",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.88,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "785e164a-3232-4a85-9608-b57dbb382790",
+    "order_id": "887daefc",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772973604000,
+    "ingestion_timestamp": 1772973596000,
+    "order_id_dedup": "887daefc#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0298",
+    "restaurant_id": "rest_0001",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "9d613d",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 4.85,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "28f78aa1-37a7-43ed-8412-68785a8c15a4",
+    "order_id": "887daefc",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772974544000,
+    "ingestion_timestamp": 1772974547000,
+    "order_id_dedup": "887daefc#DELIVERED",
+    "customer_id": "cust_0020",
+    "restaurant_id": "rest_0001",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_south",
+    "items": [
+      {
+        "item_id": "9d613d",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 809,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 1.43,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "9d94c3f9-0ae7-4072-a280-fa1dc276955f",
+    "order_id": "5510c44f",
+    "event_type": "ORDER_PLACED",
+    "event_timestamp": 1772974184000,
+    "ingestion_timestamp": 1772974194000,
+    "order_id_dedup": "5510c44f#ORDER_PLACED",
+    "customer_id": "cust_0224",
+    "restaurant_id": "rest_0003",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a0fb19",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.42,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "b86a0f51-5b28-41b0-9ae9-5f3459d366af",
+    "order_id": "5510c44f",
+    "event_type": "ORDER_ACCEPTED",
+    "event_timestamp": 1772974244000,
+    "ingestion_timestamp": 1772974279000,
+    "order_id_dedup": "5510c44f#ORDER_ACCEPTED",
+    "customer_id": "cust_0060",
+    "restaurant_id": "rest_0003",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a0fb19",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.54,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "5c89594f-b5a3-4157-8c59-3b4b1906bf51",
+    "order_id": "5510c44f",
+    "event_type": "PREPARATION_STARTED",
+    "event_timestamp": 1772974274000,
+    "ingestion_timestamp": 1772974317000,
+    "order_id_dedup": "5510c44f#PREPARATION_STARTED",
+    "customer_id": "cust_0098",
+    "restaurant_id": "rest_0003",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a0fb19",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.02,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "1c4468da-2c7d-48db-9dd4-9627ed54e7d6",
+    "order_id": "5510c44f",
+    "event_type": "READY_FOR_PICKUP",
+    "event_timestamp": 1772975084000,
+    "ingestion_timestamp": 1772975144000,
+    "order_id_dedup": "5510c44f#READY_FOR_PICKUP",
+    "customer_id": "cust_0224",
+    "restaurant_id": "rest_0003",
+    "courier_id": null,
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a0fb19",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": 810,
+    "delivery_distance_km": 1.01,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "1268eb41-b2fe-4257-891c-ff8188b06f3b",
+    "order_id": "5510c44f",
+    "event_type": "PICKED_UP",
+    "event_timestamp": 1772975184000,
+    "ingestion_timestamp": 1772975222000,
+    "order_id_dedup": "5510c44f#PICKED_UP",
+    "customer_id": "cust_0352",
+    "restaurant_id": "rest_0003",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a0fb19",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.88,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "30233a28-ea54-4f1a-9d08-9112c45733dc",
+    "order_id": "5510c44f",
+    "event_type": "OUT_FOR_DELIVERY",
+    "event_timestamp": 1772975244000,
+    "ingestion_timestamp": 1772975299000,
+    "order_id_dedup": "5510c44f#OUT_FOR_DELIVERY",
+    "customer_id": "cust_0101",
+    "restaurant_id": "rest_0003",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a0fb19",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 2.46,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  },
+  {
+    "event_id": "550591b4-954f-43e0-a1eb-bae49f6c0c2e",
+    "order_id": "5510c44f",
+    "event_type": "DELIVERED",
+    "event_timestamp": 1772976184000,
+    "ingestion_timestamp": 1772976162000,
+    "order_id_dedup": "5510c44f#DELIVERED",
+    "customer_id": "cust_0486",
+    "restaurant_id": "rest_0003",
+    "courier_id": "courier_0001",
+    "zone_id": "zone_west",
+    "items": [
+      {
+        "item_id": "a0fb19",
+        "name": "Margherita",
+        "quantity": 1,
+        "unit_price": 9.5
+      }
+    ],
+    "total_amount": 9.5,
+    "promo_code": null,
+    "is_promo_period": false,
+    "payment_method": "CREDIT_CARD",
+    "estimated_prep_time_sec": 661,
+    "actual_prep_time_sec": null,
+    "delivery_distance_km": 3.66,
+    "cancellation_reason": null,
+    "is_duplicate": false,
+    "schema_version": "1.0"
+  }
+]

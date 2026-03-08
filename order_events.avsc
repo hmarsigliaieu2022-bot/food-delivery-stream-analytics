@@ -1,0 +1,154 @@
+{
+  "type": "record",
+  "name": "OrderEvent",
+  "namespace": "com.fooddelivery.streams",
+  "doc": "Represents lifecycle events for a food delivery order",
+  "fields": [
+    {
+      "name": "event_id",
+      "type": "string",
+      "doc": "Unique identifier for this event (UUID)"
+    },
+    {
+      "name": "order_id",
+      "type": "string",
+      "doc": "Unique identifier for the order"
+    },
+    {
+      "name": "event_type",
+      "type": {
+        "type": "enum",
+        "name": "OrderEventType",
+        "symbols": [
+          "ORDER_PLACED",
+          "ORDER_ACCEPTED",
+          "ORDER_REJECTED",
+          "PREPARATION_STARTED",
+          "READY_FOR_PICKUP",
+          "PICKED_UP",
+          "OUT_FOR_DELIVERY",
+          "DELIVERED",
+          "CANCELLED",
+          "REFUND_REQUESTED"
+        ]
+      },
+      "doc": "The lifecycle stage of the order"
+    },
+    {
+      "name": "event_timestamp",
+      "type": "long",
+      "logicalType": "timestamp-millis",
+      "doc": "Event time in milliseconds since epoch (used for event-time processing)"
+    },
+    {
+      "name": "ingestion_timestamp",
+      "type": "long",
+      "logicalType": "timestamp-millis",
+      "doc": "Processing/ingestion time — may differ from event_timestamp for late arrivals"
+    },
+    {
+      "name": "order_id_dedup",
+      "type": "string",
+      "doc": "Deduplication key: order_id + event_type combination"
+    },
+    {
+      "name": "customer_id",
+      "type": "string",
+      "doc": "Anonymised customer identifier"
+    },
+    {
+      "name": "restaurant_id",
+      "type": "string",
+      "doc": "Restaurant identifier — join key with restaurant reference data"
+    },
+    {
+      "name": "courier_id",
+      "type": ["null", "string"],
+      "default": null,
+      "doc": "Courier identifier — null until courier is assigned"
+    },
+    {
+      "name": "zone_id",
+      "type": "string",
+      "doc": "Delivery zone identifier — used for zone-level analytics"
+    },
+    {
+      "name": "items",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "name": "OrderItem",
+          "fields": [
+            {"name": "item_id", "type": "string"},
+            {"name": "name", "type": "string"},
+            {"name": "quantity", "type": "int"},
+            {"name": "unit_price", "type": "float"}
+          ]
+        }
+      },
+      "doc": "Line items in the order"
+    },
+    {
+      "name": "total_amount",
+      "type": "float",
+      "doc": "Total order value in EUR"
+    },
+    {
+      "name": "promo_code",
+      "type": ["null", "string"],
+      "default": null,
+      "doc": "Promotional code applied, if any"
+    },
+    {
+      "name": "is_promo_period",
+      "type": "boolean",
+      "default": false,
+      "doc": "True if event occurred during a promotional window"
+    },
+    {
+      "name": "payment_method",
+      "type": {
+        "type": "enum",
+        "name": "PaymentMethod",
+        "symbols": ["CREDIT_CARD", "DEBIT_CARD", "PAYPAL", "CASH", "WALLET"]
+      }
+    },
+    {
+      "name": "estimated_prep_time_sec",
+      "type": ["null", "int"],
+      "default": null,
+      "doc": "Restaurant-estimated preparation time in seconds"
+    },
+    {
+      "name": "actual_prep_time_sec",
+      "type": ["null", "int"],
+      "default": null,
+      "doc": "Actual preparation time — populated at READY_FOR_PICKUP"
+    },
+    {
+      "name": "delivery_distance_km",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Straight-line delivery distance in km"
+    },
+    {
+      "name": "cancellation_reason",
+      "type": ["null", "string"],
+      "default": null,
+      "doc": "Reason for cancellation, if event_type is CANCELLED"
+    },
+    {
+      "name": "is_duplicate",
+      "type": "boolean",
+      "default": false,
+      "doc": "Flag injected by generator to mark intentional duplicate events for idempotency testing"
+    },
+    {
+      "name": "schema_version",
+      "type": "string",
+      "default": "1.0",
+      "doc": "Schema version for evolution tracking"
+    }
+  ]
+}

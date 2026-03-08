@@ -1,0 +1,125 @@
+{
+  "type": "record",
+  "name": "CourierStatusEvent",
+  "namespace": "com.fooddelivery.streams",
+  "doc": "Real-time courier availability, location, and status updates",
+  "fields": [
+    {
+      "name": "event_id",
+      "type": "string",
+      "doc": "Unique identifier for this status event (UUID)"
+    },
+    {
+      "name": "courier_id",
+      "type": "string",
+      "doc": "Courier identifier — join key with order events"
+    },
+    {
+      "name": "order_id",
+      "type": ["null", "string"],
+      "default": null,
+      "doc": "Current order being handled — null when idle/offline"
+    },
+    {
+      "name": "event_type",
+      "type": {
+        "type": "enum",
+        "name": "CourierEventType",
+        "symbols": [
+          "ONLINE",
+          "OFFLINE",
+          "IDLE",
+          "ASSIGNED",
+          "EN_ROUTE_TO_RESTAURANT",
+          "ARRIVED_AT_RESTAURANT",
+          "EN_ROUTE_TO_CUSTOMER",
+          "ARRIVED_AT_CUSTOMER",
+          "BREAK"
+        ]
+      },
+      "doc": "Current courier activity status"
+    },
+    {
+      "name": "event_timestamp",
+      "type": "long",
+      "logicalType": "timestamp-millis",
+      "doc": "Event time in milliseconds since epoch"
+    },
+    {
+      "name": "ingestion_timestamp",
+      "type": "long",
+      "logicalType": "timestamp-millis",
+      "doc": "Ingestion time — may differ for late/out-of-order events"
+    },
+    {
+      "name": "zone_id",
+      "type": "string",
+      "doc": "Current zone of courier — used for supply/demand balancing"
+    },
+    {
+      "name": "latitude",
+      "type": "double",
+      "doc": "Current GPS latitude"
+    },
+    {
+      "name": "longitude",
+      "type": "double",
+      "doc": "Current GPS longitude"
+    },
+    {
+      "name": "speed_kmh",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Estimated courier speed — null when stationary"
+    },
+    {
+      "name": "vehicle_type",
+      "type": {
+        "type": "enum",
+        "name": "VehicleType",
+        "symbols": ["BICYCLE", "SCOOTER", "MOTORCYCLE", "CAR", "WALKING"]
+      }
+    },
+    {
+      "name": "battery_level",
+      "type": ["null", "int"],
+      "default": null,
+      "doc": "Device battery percentage — useful for offline prediction"
+    },
+    {
+      "name": "session_id",
+      "type": "string",
+      "doc": "Identifier for a courier's online session — used for session window analytics"
+    },
+    {
+      "name": "deliveries_completed_in_session",
+      "type": "int",
+      "default": 0,
+      "doc": "Count of deliveries completed in the current online session"
+    },
+    {
+      "name": "estimated_idle_minutes",
+      "type": ["null", "float"],
+      "default": null,
+      "doc": "Platform-estimated idle time until next assignment"
+    },
+    {
+      "name": "went_offline_mid_delivery",
+      "type": "boolean",
+      "default": false,
+      "doc": "Edge case flag: courier went offline while an order was assigned"
+    },
+    {
+      "name": "is_duplicate",
+      "type": "boolean",
+      "default": false,
+      "doc": "Duplicate event flag for idempotency testing"
+    },
+    {
+      "name": "schema_version",
+      "type": "string",
+      "default": "1.0",
+      "doc": "Schema version for evolution tracking"
+    }
+  ]
+}
