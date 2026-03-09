@@ -2,21 +2,8 @@
 
 ## Project Overview
 
-This repository contains the **Milestone 1** deliverables for the Stream Analytics Group Project (Spring 2026).  
+This repository contains the **Milestone 1** deliverables for the Stream Analytics Group Project.  
 We design and implement two realistic streaming data feeds simulating the core operational dynamics of a food delivery platform (similar to Uber Eats / Glovo).
-
----
-
-## Team Structure
-
-| Name | Role |
-|------|------|
-| *(Team Member 1)* | Feed Design & Schema |
-| *(Team Member 2)* | Generator Implementation |
-| *(Team Member 3)* | Edge Case Logic |
-| *(Team Member 4)* | Sample Data & Validation |
-| *(Team Member 5)* | Documentation |
-| *(Team Member 6)* | Testing & Review |
 
 ---
 
