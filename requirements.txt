@@ -1,0 +1,21 @@
+# ---------------------------------------------------------------------------
+# Requirements for the generator (generator.py) and the Streamlit dashboard
+# (streamlit_dashboard.py).
+#
+# The three Colab notebooks install their own Spark / Kafka / Avro packages
+# inside the notebook (see the "pip install" cells near the top), so those
+# are NOT listed here.
+# ---------------------------------------------------------------------------
+
+# --- Generator ---
+fastavro>=1.9.0
+
+# --- Dashboard ---
+streamlit>=1.32.0
+streamlit-autorefresh>=1.0.1
+pandas>=2.1.0
+plotly>=5.20.0
+
+# --- Dashboard: read Parquet from Azure Blob via abfs:// URLs ---
+adlfs>=2024.2.0
+pyarrow>=15.0.0
